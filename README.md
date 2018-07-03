@@ -8,7 +8,7 @@ Create a folder called "Wsus" in %windir%\System32\WindowsPowerShell\v1.0\Module
 
 Download and copy wsus.psm1 to the folder you just created or run the following PowerShell (as Admin):
 
-`Start-BitsTransfer -Source "https://github.com/jessiehowell/WsusModule/" -Destination "${env:WinDir}\System32\WindowsPowerShell\v1.0\Modules\Wsus"`
+`Start-BitsTransfer -Source "https://raw.githubusercontent.com/jessiehowell/WsusModule/master/Wsus.psm1" -Destination "${env:WinDir}\System32\WindowsPowerShell\v1.0\Modules\Wsus"`
 
 Run PowerShell as Admin and Import the module.
 
