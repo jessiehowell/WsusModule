@@ -21,11 +21,13 @@ Get-WsusUpdates will list all updates available to you.
 
 
 Install-WsusUpdates takes a few different options:
-
-`-include <KBNum> 
+```
+-include <KBNum> 
 #Pass a comma separated list of KB numbers to install. Don't use any quotes when passing a list. Any KB Numbers not explicitly passed will not be installed. 
 
 -exclude <KBNum> 
 #Pass a comma separated list of KB numbers to NOT install. Any KB Numbers not explicitly passed will be installed.
 
--DownloadOnly #Using this option will only download available updates but NOT install them.`
+-DownloadOnly 
+#Using this option will only download available updates but NOT install them.
+```
